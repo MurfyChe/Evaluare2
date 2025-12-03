@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proiect Informatica Aplicata - Resurse Calcul</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Raport Resurse de Calcul si Internet</h1>
+        <h2>Student: Nume Prenume</h2>
+    </header>
+
+    <section id="info-personale" class="categorie">
+        <h3>1. Date Personale</h3>
+        <p><strong>Nume:</strong> Mortan</p>
+        <p><strong>Prenume:</strong> Razvan-Andrei</p>
+        <p><strong>Email:</strong> mortan.st.razvan@student.utcluj.ro</p>
+        <p><strong>Grupa:</strong> 2116</p>
+    </section>
+
+    <section id="hardware-retea" class="categorie">
+        <h3>2. Arhitectura Sistemului si Reteaua</h3>
+        
+        <div class="network-diagram">
+            <h4>Diagrama Retelei Personale</h4>
+            <img src="diagrama_retea.png" alt="Diagrama Retea Casa" class="img-stil">
+        </div>
+
+        <h4>Componente Hardware Principale</h4>
+        <table>
+            <thead>
+                <tr>
+                    <th>Componenta</th>
+                    <th>Specificatie</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Procesor (CPU)</td>
+                    <td>AMD Ryzen 5 7535HS</td>
+                </tr>
+                <tr>
+                    <td>Memorie RAM</td>
+                    <td>32 GB DDR4</td>
+                </tr>
+                <tr>
+                    <td>Stocare</td>
+                    <td>SSD 2TB NVMe</td>
+                </tr>
+                <tr>
+                    <td>Placa Video</td>
+                    <td>NVIDIA GeForce RTX 4050</td>
+                </tr>
+                <tr>
+                    <td>Tip conexiune Internet</td>
+                    <td>Fibra Optica (Digi) - 1Gbps - Bandwith Local 10Gbps - Bandwith Digi 2.5Gbps</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="monitorizare" class="categorie">
+        <h3>3. Monitorizare Resurse (Streaming Video)</h3>
+        <p class="instructiune"><em>(Double-click in aceasta zona pentru a porni slideshow-ul)</em></p>
+        
+        <div id="galerie-resurse">
+            <div class="resursa-item">
+                <p>Consum CPU</p>
+                <img src="cpu.png" alt="Consum CPU" class="img-monitorizare">
+            </div>
+            <div class="resursa-item">
+                <p>Consum Memorie</p>
+                <img src="ram.png" alt="Consum RAM" class="img-monitorizare">
+            </div>
+            <div class="resursa-item">
+                <p>Activitate Retea</p>
+                <img src="net.png" alt="Activitate Retea" class="img-monitorizare">
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
